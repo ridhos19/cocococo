@@ -1,0 +1,842 @@
+<mxfile host="Electron">
+  <diagram name="Sistem Pengolahan &amp; Monitoring Air Limbah" id="pg1">
+    <mxGraphModel dx="7403" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#00FFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-25" edge="1" parent="1" source="pg1-ct" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-pDekomposisi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-36" edge="1" parent="1" source="pg1-ct" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-42" edge="1" parent="1" source="pg1-ct" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-pPengenalan Pola">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-43" edge="1" parent="1" source="pg1-ct" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-pAbstraksi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-ct" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);" value="CT&lt;br&gt;Computational Thinking" vertex="1">
+          <mxGeometry height="80" width="170" x="-450" y="806" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-i0_0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="Data" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d0_0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="struct DataSensor: double pH, kekeruhan, COD; waktu (jam sistem), status&lt;br&gt;struct BakuMutu: pHMin = 6, pHMax = 9, kekeruhanMaks = 5, CODMaks = 50" vertex="1">
+          <mxGeometry height="60" width="520" x="799" y="-55" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-e1" edge="1" parent="1" source="pg1-i0_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#000000,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);" target="pg1-d0_0" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-i0_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="Input (Sensor)" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d0_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="BacaDataSensor(): operator memasukkan nilai, program memvalidasi dan menyimpan data, lalu kembali ke Menu Utama (evaluasi dijalankan terpisah lewat menu 2, tidak otomatis)" vertex="1">
+          <mxGeometry height="60" width="520" x="799" y="101" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-e2" edge="1" parent="1" source="pg1-i0_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#000000,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);" target="pg1-d0_1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d0_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="Penyaringan → Sedimentasi → Pengolahan Biologis → Disinfeksi (proses fisik, di luar program)" vertex="1">
+          <mxGeometry height="60" width="520" x="799" y="-209" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-e3" edge="1" parent="1" source="pg1-i0_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#000000,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);" target="pg1-d0_2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="703cMNbs8lg8e6dQjEi0-6" edge="1" parent="1" source="pg1-i0_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" target="pg1-d0_3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-i0_3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="Monitoring" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d0_3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="EvaluasiKualitas(), TampilkanRiwayat() (dipanggil pengguna lewat menu 2 dan 3)" vertex="1">
+          <mxGeometry height="60" width="520" x="800" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-i0_4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="Pemanfaatan Kembali" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-e5" edge="1" parent="1" source="pg1-i0_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#000000,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);" target="pg1-d0_4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-i0_5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="Entry Point" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d0_5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="MenuUtama(): 1. Baca Data Sensor 2. Evaluasi Kualitas Air 3. Riwayat Data 4. Keluar" vertex="1">
+          <mxGeometry height="60" width="520" x="799" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-e6" edge="1" parent="1" source="pg1-i0_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#000000,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);" target="pg1-d0_5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="703cMNbs8lg8e6dQjEi0-4" edge="1" parent="1" source="pg1-i0_6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" target="pg1-d0_6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-i0_6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="Deklarasi" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="-127" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d0_6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="sensor.hpp (struct DataSensor), baku_mutu.hpp (struct BakuMutu)" vertex="1">
+          <mxGeometry height="60" width="520" x="799" y="-132" as="geometry" />
+        </mxCell>
+        <mxCell id="703cMNbs8lg8e6dQjEi0-9" edge="1" parent="1" source="pg1-pDekomposisi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" target="pg1-i0_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="703cMNbs8lg8e6dQjEi0-10" edge="1" parent="1" source="pg1-pDekomposisi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;curveGeometry=1;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" target="pg1-i0_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="703cMNbs8lg8e6dQjEi0-11" edge="1" parent="1" source="pg1-pDekomposisi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;curveGeometry=1;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" target="pg1-i0_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="703cMNbs8lg8e6dQjEi0-12" edge="1" parent="1" source="pg1-pDekomposisi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;curveGeometry=1;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" target="pg1-i0_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="703cMNbs8lg8e6dQjEi0-13" edge="1" parent="1" source="pg1-pDekomposisi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;curveGeometry=1;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" target="pg1-i0_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="703cMNbs8lg8e6dQjEi0-14" edge="1" parent="1" source="pg1-pDekomposisi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;curveGeometry=1;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" target="pg1-i0_0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="703cMNbs8lg8e6dQjEi0-23" edge="1" parent="1" source="pg1-pDekomposisi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;curveGeometry=1;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" target="pg1-i0_6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-pDekomposisi" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fontSize=13;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="Dekomposisi" vertex="1">
+          <mxGeometry height="60" width="170" x="90" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-27" edge="1" parent="1" source="pg1-i1_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;" target="pg1-d1_0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="450" />
+              <mxPoint x="760" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg1-i1_0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Pola Pengukuran Berulang" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d1_0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Operator memasukkan data sensor berulang pada setiap siklus pengolahan (setelah disinfeksi) dengan format data yang sama (loop)" vertex="1">
+          <mxGeometry height="60" width="520" x="800" y="423.89" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d1_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Air limbah selalu melewati urutan: saring → endap → biologis → disinfeksi (pola pada proses fisik, tidak dikodekan; program berperan setelah disinfeksi)" vertex="1">
+          <mxGeometry height="60" width="520" x="800" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d1_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Setiap parameter dibandingkan dengan baku mutu (batas min/maks)" vertex="1">
+          <mxGeometry height="60" width="520" x="800" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-33" edge="1" parent="1" source="pg1-i1_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-d1_3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="720" />
+              <mxPoint x="770" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg1-i1_3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Pola Perubahan Status" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d1_3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Status air: &quot;Layak Reuse&quot; atau &quot;Perlu Olah Ulang&quot; sesuai hasil evaluasi" vertex="1">
+          <mxGeometry height="60" width="520" x="800" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-34" edge="1" parent="1" source="pg1-i1_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-d1_4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-i1_4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Pola Penanganan Error" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d1_4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Input tidak valid → input diulang: nilai sensor (bukan angka atau bernilai negatif) dan pilihan menu. Riwayat kosong → pesan &quot;Belum ada data sensor&quot;" vertex="1">
+          <mxGeometry height="60" width="520" x="800" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-i1_5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Pola Penelusuran Data (Iterasi)" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="875" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d1_5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Setiap data pada riwayat ditelusuri satu per satu dengan perulangan for (const auto&amp;amp; d : riwayat) dan ditampilkan dengan format kolom yang sama (Waktu, pH, Kekeruhan, COD, Status) pada TampilkanRiwayat()" vertex="1">
+          <mxGeometry height="60" width="520" x="800" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-e30" edge="1" parent="1" source="pg1-pPengenalan Pola" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;fillColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="pg1-i1_5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="630" />
+              <mxPoint x="340" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg1-e31" edge="1" parent="1" source="pg1-i1_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-d1_5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-e24" edge="1" parent="1" source="pg1-pPengenalan Pola" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(default, #ffffff);fontSize=11;curved=1;fontColor=default;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-i1_2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-i2_0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Proses" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="1018" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d2_0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=none;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="BacaDataSensor(), EvaluasiKualitas(), TampilkanRiwayat()&lt;br&gt;Operator tidak perlu tahu cara kerja sensor dan reaktor" vertex="1">
+          <mxGeometry height="60" width="520" x="800" y="1013" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-e27" edge="1" parent="1" source="pg1-i2_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-d2_0" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d2_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=none;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="vector&amp;lt;DataSensor&amp;gt; riwayat;  BakuMutu baku;" vertex="1">
+          <mxGeometry height="60" width="520" x="798" y="1098" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-e28" edge="1" parent="1" source="pg1-i2_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-d2_1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-i2_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Pola Abstrak" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="1198" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d2_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=none;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Detail reaksi kimia/biologi diabaikan; hanya parameter kunci (pH, kekeruhan, COD) yang dipakai" vertex="1">
+          <mxGeometry height="60" width="520" x="800" y="1193" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-e29" edge="1" parent="1" source="pg1-i2_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-d2_2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-23" edge="1" parent="1" source="pg1-pAbstraksi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-i2_0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="1138" />
+              <mxPoint x="400" y="1043.04" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-24" edge="1" parent="1" source="pg1-pAbstraksi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-i2_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="1138" />
+              <mxPoint x="400" y="1223.04" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg1-pAbstraksi" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fontSize=13;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Abstraksi" vertex="1">
+          <mxGeometry height="60" width="170" x="90" y="1108" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-i0_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="Proses Pengolahan" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="-204" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-28" edge="1" parent="1" source="pg1-i1_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-d1_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-i1_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Pola Tahapan Berurutan" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-i1_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Pola Perbandingan Ambang" vertex="1">
+          <mxGeometry height="50" width="230" x="480" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-14" edge="1" parent="1" source="pg1-pPengenalan Pola" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;fillColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="pg1-i1_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-17" edge="1" parent="1" source="pg1-pPengenalan Pola" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;fillColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="pg1-i1_0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="630" />
+              <mxPoint x="340" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-18" edge="1" parent="1" source="pg1-pPengenalan Pola" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;fillColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="pg1-i1_4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="630" />
+              <mxPoint x="340" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg1-pPengenalan Pola" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fontSize=13;labelBackgroundColor=light-dark(default, #ffffff);labelBorderColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Pengenalan Pola" vertex="1">
+          <mxGeometry height="60" width="170" x="90" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-15" edge="1" parent="1" source="pg1-pPengenalan Pola" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.631;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-i1_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-22" edge="1" parent="1" source="pg1-pAbstraksi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(default, #ffffff);fontSize=11;curved=1;fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-i2_1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="1138" />
+              <mxPoint x="380" y="1138" />
+            </Array>
+            <mxPoint x="260" y="1048" as="sourcePoint" />
+            <mxPoint x="575" y="1128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg1-i2_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Struktur Data" vertex="1">
+          <mxGeometry height="50" width="230" x="484" y="1103" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk4Gzk2lAkgordiFuvqC-31" edge="1" parent="1" source="pg1-i1_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=light-dark(default, #ffffff);fontColor=default;labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-d1_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3n6cSfPqJ6mhXaRNVuj5-1" edge="1" parent="1" source="ZmOPi4d-AKWd66pARLO7-1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=light-dark(#000000,#FFFFFF);fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);" target="pg1-ct">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmOPi4d-AKWd66pARLO7-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=14;strokeWidth=2;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="630" width="1740" x="-2330" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmOPi4d-AKWd66pARLO7-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Sensor membaca:&lt;br&gt;pH, Kekeruhan, COD" vertex="1">
+          <mxGeometry height="60" width="135" x="-1300" y="651" as="geometry" />
+        </mxCell>
+        <mxCell id="CRKp-T0ZcJPDU9UcQZyt-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=14;strokeWidth=2;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=none;fontColor=light-dark(#000000,#000000);" value="Versi Manual" vertex="1">
+          <mxGeometry height="500" width="1700" x="-4100" y="587" as="geometry" />
+        </mxCell>
+        <mxCell id="BtA2ELrWmOlcEY6nUL6b-16" edge="1" parent="1" source="CRKp-T0ZcJPDU9UcQZyt-20" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=light-dark(#000000,#FFFFFF);fontColor=light-dark(#000000,#000000);exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.438;entryY=1;entryDx=0;entryDy=0;labelBorderColor=default;fillColor=none;strokeColor=light-dark(#000000,#000000);" target="m_masuk" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRKp-T0ZcJPDU9UcQZyt-20" parent="1" style="verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#DAE8FC,#007FFF);gradientColor=#7ea6e0;strokeColor=light-dark(#000000,#000000);labelBorderColor=default;fontColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="219" width="89" x="-4009" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="KSMNhp5l4F6JaJh4Fhca-3" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="Penghasil Limbah" vertex="1">
+          <mxGeometry height="30" width="140" x="-4034.5" y="993" as="geometry" />
+        </mxCell>
+        <mxCell id="HBaPsaAAVBIp69iLiIoO-1" parent="1" style="text;html=1;whiteSpace=wrap;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fontColor=light-dark(#000000,#000000);" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;Versi Semi Otomatis dengan Sistem&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="361" x="-1686" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-42" edge="1" parent="1" source="n_simpan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="n_banding" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_simpan" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Menu 1: operator memasukkan data sensor, program menyimpan" vertex="1">
+          <mxGeometry height="70" width="135" x="-1095" y="646" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-34" edge="1" parent="1" source="n_banding" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="n_dash" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-43" edge="1" parent="1" source="n_banding" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="n_layak" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_banding" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="menu 2: Evaluasi kualitas air. Sistem membandingkan dengan baku mutu&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="135" x="-1095" y="776" as="geometry" />
+        </mxCell>
+        <mxCell id="38S35gE-eHD6ZZ-zHLEd-1" edge="1" parent="1" source="n_layak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="n_reuse" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38S35gE-eHD6ZZ-zHLEd-4" connectable="0" parent="38S35gE-eHD6ZZ-zHLEd-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fontColor=light-dark(#000000,#000000);" value="ya" vertex="1">
+          <mxGeometry relative="1" x="-0.2999" y="-5" as="geometry">
+            <mxPoint x="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38S35gE-eHD6ZZ-zHLEd-2" edge="1" parent="1" source="n_layak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="n_alarm" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38S35gE-eHD6ZZ-zHLEd-3" connectable="0" parent="38S35gE-eHD6ZZ-zHLEd-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fontColor=light-dark(#000000,#000000);" value="tidak" vertex="1">
+          <mxGeometry relative="1" x="0.0036" y="3" as="geometry">
+            <mxPoint x="1" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_layak" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Layak Reuse?" vertex="1">
+          <mxGeometry height="110" width="135" x="-1270" y="756" as="geometry" />
+        </mxCell>
+        <mxCell id="n_reuse" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Tangki air reuse" vertex="1">
+          <mxGeometry height="60" width="135" x="-1270" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ZmOPi4d-AKWd66pARLO7-3_n_simpan" edge="1" parent="1" source="ZmOPi4d-AKWd66pARLO7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#000000,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;strokeColor=light-dark(#000000,#000000);" target="n_simpan" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_masuk" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=default;fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Air limbah dihasilkan" vertex="1">
+          <mxGeometry height="70" width="170" x="-4039" y="646" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-52" edge="1" parent="1" source="n_alarm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);" target="8h4s6SyplSa0QA7QW0p4-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_alarm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Peringatan ke operator: air belum memenuhi baku mutu, perlu diolah ulang" vertex="1">
+          <mxGeometry height="80" width="135" x="-1480" y="771" as="geometry" />
+        </mxCell>
+        <mxCell id="n_dash" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Menu 3: tampilkan riwayat data dan status" vertex="1">
+          <mxGeometry height="70" width="135" x="-1095" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="mn_pakai" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=default;fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Air limbah&lt;br&gt;dipakai lagi?" vertex="1">
+          <mxGeometry height="100" width="180" x="-3809" y="631" as="geometry" />
+        </mxCell>
+        <mxCell id="mn_tampung" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=default;fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Ditampung seadanya&lt;br&gt;(ember / bak / tandon)" vertex="1">
+          <mxGeometry height="70" width="190" x="-3569" y="646" as="geometry" />
+        </mxCell>
+        <mxCell id="mn_langsung" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=default;fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Dipakai langsung (siram tanaman,&lt;br&gt;bersih-bersih), hanya ditebak dari&lt;br&gt;warna dan bau, tanpa uji kualitas" vertex="1">
+          <mxGeometry height="70" width="230" x="-3319" y="646" as="geometry" />
+        </mxCell>
+        <mxCell id="mn_risiko" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);fillColor=none;labelBorderColor=default;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Risiko kesehatan dan lingkungan:&lt;br&gt;bakteri, bau, jentik nyamuk,&lt;br&gt;deterjen merusak tanah" vertex="1">
+          <mxGeometry height="70" width="230" x="-3029" y="646" as="geometry" />
+        </mxCell>
+        <mxCell id="mn_buang" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=default;textShadow=0;fillColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Dibuang ke got / sungai / tanah&lt;br&gt;(berisiko mencemari lingkungan)" vertex="1">
+          <mxGeometry height="70" width="180" x="-3809" y="811" as="geometry" />
+        </mxCell>
+        <mxCell id="me_masuk_pakai" edge="1" parent="1" source="m_masuk" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#000000,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBorderColor=default;fillColor=none;strokeColor=light-dark(#000000,#000000);" target="mn_pakai" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me_pakai_ya" edge="1" parent="1" source="mn_pakai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#000000,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBorderColor=default;fillColor=none;strokeColor=light-dark(#000000,#000000);" target="mn_tampung" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me_tampung_langsung" edge="1" parent="1" source="mn_tampung" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#000000,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBorderColor=default;fillColor=none;strokeColor=light-dark(#000000,#000000);" target="mn_langsung" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me_langsung_risiko" edge="1" parent="1" source="mn_langsung" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#000000,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBorderColor=default;fillColor=none;strokeColor=light-dark(#000000,#000000);" target="mn_risiko" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me_pakai_tidak" edge="1" parent="1" source="mn_pakai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#000000,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBorderColor=default;fillColor=none;strokeColor=light-dark(#000000,#000000);" target="mn_buang" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="703cMNbs8lg8e6dQjEi0-1" parent="1" style="text;html=1;whiteSpace=wrap;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=default;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="tidak" vertex="1">
+          <mxGeometry height="30" width="60" x="-3730" y="756" as="geometry" />
+        </mxCell>
+        <mxCell id="703cMNbs8lg8e6dQjEi0-2" parent="1" style="text;html=1;whiteSpace=wrap;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=default;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="&lt;span style=&quot;&quot;&gt;ya&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-3629" y="686" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-d0_4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=6;labelBackgroundColor=light-dark(#000000,#FFFFFF);labelBorderColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="Air berstatus &quot;Layak Reuse&quot; dialirkan operator ke tangki reuse untuk keperluan non-konsumsi (irigasi, flushing toilet, pendingin); proses fisik, program hanya menampilkan status dan pesan" vertex="1">
+          <mxGeometry height="60" width="520" x="798" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=15;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#6C8EBF,#000000);fontColor=light-dark(#000000,#000000);" value="Air limbah masuk ke tangki penampungan" vertex="1">
+          <mxGeometry height="60" width="130" x="-2180" y="651" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=15;fillColor=light-dark(#DAE8FC,#FFFFFF);strokeColor=light-dark(#6C8EBF,#000000);fontColor=light-dark(#000000,#000000);" value="Penyaringan awal" vertex="1">
+          <mxGeometry height="60" width="130" x="-2010" y="651" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-38" edge="1" parent="1" source="8h4s6SyplSa0QA7QW0p4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="8h4s6SyplSa0QA7QW0p4-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=15;fillColor=light-dark(#000000,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#FFFFFF,#000000);" value="Sedimentasi" vertex="1">
+          <mxGeometry height="60" width="130" x="-1840" y="651" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-49" edge="1" parent="1" source="8h4s6SyplSa0QA7QW0p4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="8h4s6SyplSa0QA7QW0p4-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=15;fillColor=light-dark(#DAE8FC,#FFFFFF);strokeColor=light-dark(#6C8EBF,#000000);fontColor=light-dark(#000000,#000000);" value="Pengolahan biologis" vertex="1">
+          <mxGeometry height="60" width="130" x="-1665" y="651" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-37" edge="1" parent="1" source="8h4s6SyplSa0QA7QW0p4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="ZmOPi4d-AKWd66pARLO7-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=15;fillColor=light-dark(#DAE8FC,#FFFFFF);strokeColor=light-dark(#6C8EBF,#000000);fontColor=light-dark(#000000,#000000);" value="Disinfeksi" vertex="1">
+          <mxGeometry height="60" width="130" x="-1480" y="651" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=15;fillColor=light-dark(#DAE8FC,#FFFFFF);strokeColor=light-dark(#6C8EBF,#000000);fontColor=light-dark(#000000,#000000);" value="Penanganan lumpur (pengeringan &amp;amp; pembuangan)" vertex="1">
+          <mxGeometry height="50" width="170" x="-1860" y="786" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;" target="8h4s6SyplSa0QA7QW0p4-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2139.999999999999" y="681.0000000000005" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-11" edge="1" parent="1" source="8h4s6SyplSa0QA7QW0p4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=light-dark(#000000,#000000);" target="8h4s6SyplSa0QA7QW0p4-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-12" edge="1" parent="1" source="8h4s6SyplSa0QA7QW0p4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=light-dark(#000000,#000000);" target="8h4s6SyplSa0QA7QW0p4-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-13" edge="1" parent="1" source="8h4s6SyplSa0QA7QW0p4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;strokeColor=light-dark(#000000,#000000);" target="8h4s6SyplSa0QA7QW0p4-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-44" edge="1" parent="1" source="8h4s6SyplSa0QA7QW0p4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="8h4s6SyplSa0QA7QW0p4-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=15;fillColor=light-dark(#FFF2CC,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="Operator mengalirkan air kembali ke pengolahan biologis" vertex="1">
+          <mxGeometry height="60" width="130" x="-1665" y="781" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-47" edge="1" parent="1" source="8h4s6SyplSa0QA7QW0p4-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="n_simpan" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0I0DM3zInuh9oRSxeNfj-1" edge="1" parent="1" source="8h4s6SyplSa0QA7QW0p4-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);" target="n_banding">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0I0DM3zInuh9oRSxeNfj-2" edge="1" parent="1" source="8h4s6SyplSa0QA7QW0p4-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);" target="n_dash">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-46" parent="1" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#1ba1e2;strokeColor=#006EAF;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="98" width="37" x="-851" y="632" as="geometry" />
+        </mxCell>
+        <mxCell id="8h4s6SyplSa0QA7QW0p4-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="operator" vertex="1">
+          <mxGeometry height="30" width="60" x="-860" y="738" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-1" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-2" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=none;fontColor=default;strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" value="Algoritma Menu Utama" vertex="1">
+          <mxGeometry height="50" width="230" x="488" y="1354" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-3" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-4" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-5" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-6" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fontSize=13;labelBackgroundColor=none;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Algoritma" vertex="1">
+          <mxGeometry height="60" width="170" x="99" y="1792" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Do" vertex="1">
+          <mxGeometry height="60" width="100" x="806" y="1349" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;labelBackgroundColor=none;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Menu Utama:&lt;br&gt;1. Baca Data Sensor&lt;br&gt;2. Evaluasi Kualitas Air&lt;br&gt;3. Riwayat Data&lt;br&gt;4. Keluar" vertex="1">
+          <mxGeometry height="80" width="280" x="956" y="1339" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);" value="Input Pilihan" vertex="1">
+          <mxGeometry height="60" width="160" x="1276" y="1349" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Input angka 1–4?" vertex="1">
+          <mxGeometry height="90" width="150" x="1486" y="1334" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;labelBackgroundColor=none;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Inputan tidak valid" vertex="1">
+          <mxGeometry height="60" width="190" x="1466" y="1219" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#1A1A1A);strokeColor=light-dark(#000000,#000000);" value="Switch" vertex="1">
+          <mxGeometry height="50" width="90" x="1706" y="1354" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Pilihan = 1" vertex="1">
+          <mxGeometry height="60" width="130" x="1856" y="1254" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="BacaDataSensor()" vertex="1">
+          <mxGeometry height="50" width="190" x="2046" y="1259" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-16" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1751" y="1284" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-17" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-15" value="ya">
+          <mxGeometry relative="1" x="0.0667" y="-14" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Pilihan = 2" vertex="1">
+          <mxGeometry height="60" width="130" x="1856" y="1324" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="EvaluasiKualitas()" vertex="1">
+          <mxGeometry height="50" width="190" x="2046" y="1329" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-20" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-21" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-19" value="ya">
+          <mxGeometry relative="1" x="0.0667" y="-14" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-22" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Pilihan = 3" vertex="1">
+          <mxGeometry height="60" width="130" x="1856" y="1394" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="TampilkanRiwayat()" vertex="1">
+          <mxGeometry height="50" width="190" x="2046" y="1399" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-24" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-25" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-23" value="ya">
+          <mxGeometry relative="1" x="0.0667" y="-14" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-26" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Pilihan = 4" vertex="1">
+          <mxGeometry height="60" width="130" x="1856" y="1504" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Tampilkan &quot;Keluar.&quot;" vertex="1">
+          <mxGeometry height="50" width="190" x="2046" y="1509" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-28" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1751" y="1538" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-29" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-27" value="ya">
+          <mxGeometry relative="1" x="0.0667" y="-14" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-30" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=default;strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-31" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=default;strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-32" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-33" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#FFFFFF);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-12" value="tidak">
+          <mxGeometry relative="1" x="-0.0545" y="-17" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-34" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-35" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-13" value="ya">
+          <mxGeometry relative="1" x="-0.0857" y="11" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Algoritma Baca Data Sensor" vertex="1">
+          <mxGeometry height="60" width="180" x="492" y="1955" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Do" vertex="1">
+          <mxGeometry height="60" width="100" x="722" y="1955" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-38" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Operator input pH, Kekeruhan (NTU), COD (mg/L)" vertex="1">
+          <mxGeometry height="80" width="250" x="872" y="1945" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-39" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Input angka dan&lt;br&gt;semua nilai ≥ 0?" vertex="1">
+          <mxGeometry height="120" width="230" x="1152" y="1925" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-40" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Data sensor tidak valid,&lt;br&gt;ulangi pembacaan" vertex="1">
+          <mxGeometry height="70" width="230" x="1152" y="1795" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="DataSensor d = {pH, kekeruhan, COD,&lt;br&gt;waktu = jam sistem, status = &quot;-&quot;}" vertex="1">
+          <mxGeometry height="60" width="230" x="1422" y="1955" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="riwayat.push_back(d)" vertex="1">
+          <mxGeometry height="60" width="200" x="1692" y="1955" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-43" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Tampilkan &quot;Data sensor&lt;br&gt;tersimpan&quot;" vertex="1">
+          <mxGeometry height="80" width="200" x="1932" y="1945" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-44" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-45" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-46" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-47" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-40" value="tidak">
+          <mxGeometry relative="1" x="0.0571" y="-21" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-48" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-49" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-41" value="ya">
+          <mxGeometry relative="1" x="-0.1333" y="-13" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-50" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-51" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Algoritma Evaluasi Kualitas Air" vertex="1">
+          <mxGeometry height="60" width="180" x="488" y="2210" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="EvaluasiKualitas()&lt;br&gt;(dipanggil dari pilihan menu 2)" vertex="1">
+          <mxGeometry height="80" width="230" x="718" y="2200" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-54" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="riwayat.empty()?" vertex="1">
+          <mxGeometry height="90" width="170" x="998" y="2195" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-55" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Belum ada data sensor" vertex="1">
+          <mxGeometry height="60" width="190" x="988" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-56" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="d.pH di [baku.pHMin, baku.pHMax] &amp;amp;&amp;amp;&lt;br&gt;d.kekeruhan ≤ baku.kekeruhanMaks &amp;amp;&amp;amp;&lt;br&gt;d.COD ≤ baku.CODMaks ?" vertex="1">
+          <mxGeometry height="150" width="400" x="1448" y="2165" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="d.status = &quot;Layak Reuse&quot;" vertex="1">
+          <mxGeometry height="60" width="230" x="1928" y="2130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-58" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Tampilkan status →&lt;br&gt;air dapat dialirkan operator ke tangki reuse" vertex="1">
+          <mxGeometry height="70" width="260" x="2208" y="2125" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="d.status = &quot;Perlu Olah Ulang&quot;" vertex="1">
+          <mxGeometry height="60" width="230" x="1928" y="2270" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-60" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Tampilkan status + peringatan ke operator:&lt;br&gt;air belum memenuhi baku mutu, perlu diolah ulang" vertex="1">
+          <mxGeometry height="70" width="400" x="2208" y="2265" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-61" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-53" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-62" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-54" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-63" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-55" value="ya">
+          <mxGeometry relative="1" x="-0.1636" y="15" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-64" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-89" value="tidak">
+          <mxGeometry relative="1" y="-18" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-65" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-57" value="ya">
+          <mxGeometry relative="1" x="0.0286" y="20" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-66" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-59" value="tidak">
+          <mxGeometry relative="1" x="-0.0333" y="-20" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-67" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-58" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-68" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-60" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Algoritma Tampilkan Riwayat" vertex="1">
+          <mxGeometry height="60" width="180" x="486" y="2544" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-70" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="riwayat.empty()?" vertex="1">
+          <mxGeometry height="90" width="190" x="716" y="2529" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-71" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Belum ada data" vertex="1">
+          <mxGeometry height="60" width="200" x="711" y="2674" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="for (const auto&amp;amp; d : riwayat):&lt;br&gt;ambil data berikutnya (d)" vertex="1">
+          <mxGeometry height="60" width="240" x="1316" y="2544" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-73" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Tampilkan baris d:&lt;br&gt;waktu | pH | kekeruhan | COD | status" vertex="1">
+          <mxGeometry height="80" width="320" x="1606" y="2534" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-74" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Ada data berikutnya&lt;br&gt;di riwayat?" vertex="1">
+          <mxGeometry height="100" width="190" x="1976" y="2524" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-75" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Kembali ke&lt;br&gt;Menu Utama" vertex="1">
+          <mxGeometry height="60" width="170" x="2236" y="2544" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-76" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-70" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-77" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-71" value="ya">
+          <mxGeometry relative="1" x="0.0545" y="17" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-78" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-95" value="tidak">
+          <mxGeometry relative="1" x="0.0667" y="-14" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-95" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="Tampilkan header:&lt;br&gt;Waktu | pH | Kekeruhan | COD | Status" vertex="1">
+          <mxGeometry height="80" width="300" x="966" y="2534" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-96" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-72" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-79" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-73" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-80" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-74" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-81" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-72" value="ya">
+          <mxGeometry relative="1" x="0.0015" y="-16" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-82" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-75" value="tidak">
+          <mxGeometry relative="1" x="-0.0857" y="-14" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="d = riwayat.back()&lt;br&gt;(referensi data terbaru)" vertex="1">
+          <mxGeometry height="60" width="190" x="1208" y="2210" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-90" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=none;fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-56" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-91" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Selesai" vertex="1">
+          <mxGeometry height="60" width="120" x="2081" y="1599" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-100" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ZPwWydY3o2KcqCKnyqhs-91" value="pilihan = 4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-101" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="8" x="2258" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-102" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);exitX=1;exitY=0.3;entryX=0.5;entryY=0;" target="ZPwWydY3o2KcqCKnyqhs-101" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2262" y="1274" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-103" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);exitX=1;exitY=0.3;entryX=0.5;entryY=0;" target="ZPwWydY3o2KcqCKnyqhs-101" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2262" y="1344" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-104" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="ZPwWydY3o2KcqCKnyqhs-101" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-105" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.5;entryY=1;" target="ZPwWydY3o2KcqCKnyqhs-8" value="kembali ke menu (selama pilihan ≠ 4)">
+          <mxGeometry relative="1" x="0.1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2262" y="1479" />
+              <mxPoint x="856" y="1479" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-110" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Kembali ke&lt;br&gt;Menu Utama" vertex="1">
+          <mxGeometry height="60" width="170" x="2182" y="1955" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-111" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-110" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-112" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Kembali ke&lt;br&gt;Menu Utama" vertex="1">
+          <mxGeometry height="60" width="170" x="1228" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-113" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-112" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-114" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Kembali ke&lt;br&gt;Menu Utama" vertex="1">
+          <mxGeometry height="60" width="170" x="2640" y="2195" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-115" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);exitX=1;exitY=0.5;entryX=0.5;entryY=0;" target="ZPwWydY3o2KcqCKnyqhs-114" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2725" y="2160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-116" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);exitX=1;exitY=0.5;entryX=0.5;entryY=1;" target="ZPwWydY3o2KcqCKnyqhs-114" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2725" y="2300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-117" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" value="Kembali ke&lt;br&gt;Menu Utama" vertex="1">
+          <mxGeometry height="60" width="170" x="961" y="2674" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-118" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fontSize=11;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" target="ZPwWydY3o2KcqCKnyqhs-117" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwWydY3o2KcqCKnyqhs-119" parent="1" style="text;html=1;fontSize=10;fontStyle=2;align=left;verticalAlign=middle;fontColor=light-dark(#000000,#000000);" value="* Layak Reuse: air non-konsumsi&lt;br&gt;(tidak untuk diminum)" vertex="1">
+          <mxGeometry height="40" width="230" x="1928" y="2203" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-connA-out" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fillColor=#1E88E5;strokeColor=#0D47A1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="2330" y="1281" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-connA-eout" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=light-dark(#000000,#000000);exitX=1;exitY=0.8;entryX=0;entryY=0.5;" target="pg1-connA-out" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-connA-in" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fillColor=#1E88E5;strokeColor=#0D47A1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="410" y="1955" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-connB-out" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fillColor=#43A047;strokeColor=#1B5E20;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="2330" y="1351" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-connB-eout" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=light-dark(#000000,#000000);exitX=1;exitY=0.8;entryX=0;entryY=0.5;" target="pg1-connB-out" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-connB-in" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fillColor=#43A047;strokeColor=#1B5E20;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="402" y="2180" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-connC-out" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fillColor=#FB8C00;strokeColor=#E65100;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="2330" y="1421" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-connC-eout" edge="1" parent="1" source="ZPwWydY3o2KcqCKnyqhs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=light-dark(#000000,#000000);exitX=1;exitY=0.8;entryX=0;entryY=0.5;" target="pg1-connC-out" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-connC-in" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fillColor=#FB8C00;strokeColor=#E65100;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="410" y="2508" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
